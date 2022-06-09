@@ -1,2 +1,7 @@
-package com.example.demo.registration;public class RegistrationService {
+package com.example.demo.registration;
+
+public class RegistrationService {
+    public String register(RegistrationRequest request) {
+        return "Works";
+    }
 }
